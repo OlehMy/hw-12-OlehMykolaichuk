@@ -1,0 +1,46 @@
+.offer {
+    padding: 10rem 0;
+    background: url(../img/rectangle.png) center bottom no-repeat;
+    background-size: 100% 100%;
+    &__text-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: $blue-title;
+        text-align: center;
+    }
+    &__text-date {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        color: $blue-text;
+        padding-top: 0.5rem;
+        text-align: center;
+    }
+    &__text-price {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 500;
+        color: $blue-title;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+            animation: rotate 2s 1 linear;
+        }
+    }
+    &__button-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.7rem;
+        color: $gray1;
+        text-align: center;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}

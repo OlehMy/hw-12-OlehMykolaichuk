@@ -1,0 +1,18 @@
+@import "blocks/vars";
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+@import "blocks/_conteiner";
+@import "blocks/_button";
+@import "blocks/_header";
+@import "blocks/_about";
+@import "blocks/_features";
+@import "blocks/_offer";
+@import "blocks/_footer";

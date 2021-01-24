@@ -1,0 +1,31 @@
+.features {
+    &__img {
+        padding: 5rem 0;
+        @media (max-width: 767px) {
+            justify-content: center;
+        }
+    }
+    &__img img {
+        max-width: 24rem;
+        max-height: 15.8rem;
+    }
+    &__text-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: $blue-title;
+        @media (max-width: 767px) {
+            text-align: center;
+        }
+    }
+    &__text-date {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        color: $blue-text;
+        padding-top: 0.5rem;
+        @media (max-width: 767px) {
+            text-align: center;
+        }
+    }
+}

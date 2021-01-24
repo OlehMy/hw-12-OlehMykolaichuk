@@ -1,0 +1,115 @@
+.header {
+    background: url(../img/header-bg.png) no-repeat 100% 100%;
+    @media (max-width: 992px) {
+        background: $blue-footer;
+    }
+}
+
+.header .header-wrapper {
+    margin: 0;
+    display: flex;
+    padding-top: 0.5rem;
+}
+
+.header-wrapper nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    text-align: left;
+    color: $blue-nav;
+    @media (max-width: 575px) {
+        order: 1;
+    }
+}
+
+.header-wrapper .navbar-light .navbar-nav .nav-link {
+    color: $blue-nav;
+    transition: all 0.3s linear;
+    &:hover {
+        transform: translateY(-2px);
+        font-weight: 700;
+    }
+}
+
+.header-wrapper .navbar-light .navbar-toggler {
+    color: $blue-nav;
+    border-color: $blue-nav;
+}
+
+.header-wrapper .navbar-toggler {
+    font-size: inherit;
+    color: $blue-nav;
+}
+
+.header-wrapper .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0;
+}
+
+.logo__text {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: $blue-logo;
+    font-size: 1.3rem;
+    font-weight: 900;
+    line-height: 1.3rem;
+    &:hover {
+        color: $blue-logo;
+        animation: scale 0.8s 1 linear;
+    }
+}
+
+.header {
+    &__date {
+        padding-top: 11rem;
+        padding-bottom: 17rem;
+        @media (max-width: 575px) {
+            order: 2;
+        }
+    }
+    &__date-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 500;
+        color: $blue-title;
+        @media (max-width: 991px) {
+            text-align: center;
+        }
+    }
+    &__date-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        padding: 1rem 0;
+        color: $blue-text;
+        @media (max-width: 991px) {
+            text-align: center;
+        }
+    }
+}
+
+.buttons__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    @media (max-width: 991px) {
+        justify-content: center;
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1.0);
+    }
+    33% {
+        transform: scale(0.8);
+    }
+    66% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}

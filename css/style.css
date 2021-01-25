@@ -208,6 +208,12 @@ body {
   }
 }
 
+@media (max-width: 325px) {
+  .header__date-title {
+    font-size: 2rem;
+  }
+}
+
 .header__date-text {
   font-family: "Roboto";
   font-size: 0.8rem;

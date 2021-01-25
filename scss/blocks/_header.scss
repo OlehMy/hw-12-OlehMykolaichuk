@@ -45,6 +45,7 @@
 .header-wrapper .logo {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding: 0.8rem 0;
 }
@@ -59,6 +60,9 @@
     &:hover {
         color: $blue-logo;
         animation: scale 0.8s 1 linear;
+    }
+    @media (max-width: 326px) {
+        padding-bottom: 0.5rem;
     }
 }
 

@@ -142,6 +142,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -161,6 +163,12 @@ body {
   color: #37447E;
   -webkit-animation: scale 0.8s 1 linear;
           animation: scale 0.8s 1 linear;
+}
+
+@media (max-width: 326px) {
+  .logo__text {
+    padding-bottom: 0.5rem;
+  }
 }
 
 .header__date {

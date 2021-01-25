@@ -1,18 +1,17 @@
 .about {
     &__title {
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.8rem;
-        font-weight: 500;
-        color: $blue-title;
+        @each $styleName, $styleValue in $style-title-h2 {
+            #{$styleName}: $styleValue;
+            }
         @media (max-width: 767px) {
             text-align: center;
         }
     }
     &__date {
-        font-family: 'Roboto', sans-serif;
-        font-size: 0.8rem;
-        line-height: 1.5rem;
-        color: $blue-text;
+        @each $styleName, $styleValue in $style-text {
+            #{$styleName}: $styleValue;
+            }
+        line-height: 1.5rem;        
         padding: 1rem 0;
         @media (max-width: 767px) {
             text-align: center;

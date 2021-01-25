@@ -7,3 +7,24 @@ $blue-nav: #505F98;
 $blue-text: #6F7CB2;
 $blue-footer: #E7ECFF;
 $blue-footer-nav: #929ECC;
+
+$style-title-h1: (
+    "font-family": 'Roboto',
+    "font-size": 2.5rem,
+    "font-weight": 500,
+    "color": $blue-title,    
+);
+
+$style-title-h2: (
+    "font-family": 'Roboto',
+    "font-size": 1.8rem,
+    "font-weight": 500,
+    "color": $blue-title,    
+);
+
+$style-text: (
+    "font-family": 'Roboto',
+    "font-size": 0.8rem,
+    "font-weight": 400,
+    "color": $blue-text,    
+);

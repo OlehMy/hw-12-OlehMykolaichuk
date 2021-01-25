@@ -184,7 +184,7 @@ body {
 }
 
 .header__date-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto";
   font-size: 2.5rem;
   font-weight: 500;
   color: #091133;
@@ -197,11 +197,13 @@ body {
 }
 
 .header__date-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto";
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #6F7CB2;
   font-size: 0.9rem;
   line-height: 1.5rem;
   padding: 1rem 0;
-  color: #6F7CB2;
 }
 
 @media (max-width: 991px) {
@@ -265,7 +267,7 @@ body {
 }
 
 .about__title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto";
   font-size: 1.8rem;
   font-weight: 500;
   color: #091133;
@@ -278,10 +280,11 @@ body {
 }
 
 .about__date {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto";
   font-size: 0.8rem;
-  line-height: 1.5rem;
+  font-weight: 400;
   color: #6F7CB2;
+  line-height: 1.5rem;
   padding: 1rem 0;
 }
 
@@ -385,7 +388,7 @@ body {
 }
 
 .features__text-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto";
   font-size: 1.8rem;
   font-weight: 500;
   color: #091133;
@@ -398,10 +401,11 @@ body {
 }
 
 .features__text-date {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto";
   font-size: 0.8rem;
-  line-height: 1.5rem;
+  font-weight: 400;
   color: #6F7CB2;
+  line-height: 1.5rem;
   padding-top: 0.5rem;
 }
 
@@ -418,7 +422,7 @@ body {
 }
 
 .offer__text-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto";
   font-size: 1.8rem;
   font-weight: 500;
   color: #091133;
@@ -426,9 +430,9 @@ body {
 }
 
 .offer__text-date {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto";
   font-size: 0.8rem;
-  line-height: 1.5rem;
+  font-weight: 400;
   color: #6F7CB2;
   padding-top: 0.5rem;
   text-align: center;

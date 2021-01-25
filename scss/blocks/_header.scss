@@ -75,20 +75,20 @@
         }
     }
     &__date-title {
-        font-family: 'Roboto', sans-serif;
-        font-size: 2.5rem;
-        font-weight: 500;
-        color: $blue-title;
+        @each $styleName, $styleValue in $style-title-h1 {
+            #{$styleName}: $styleValue;
+            }
         @media (max-width: 991px) {
             text-align: center;
         }
     }
     &__date-text {
-        font-family: 'Roboto', sans-serif;
+        @each $styleName, $styleValue in $style-text {
+            #{$styleName}: $styleValue;
+            }
         font-size: 0.9rem;
         line-height: 1.5rem;
-        padding: 1rem 0;
-        color: $blue-text;
+        padding: 1rem 0;        
         @media (max-width: 991px) {
             text-align: center;
         }

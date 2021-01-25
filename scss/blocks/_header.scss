@@ -66,6 +66,10 @@
     &__date {
         padding-top: 11rem;
         padding-bottom: 17rem;
+        @media (max-width: 991px) {
+            padding-top: 8rem;
+            padding-bottom: 12rem;
+        }
         @media (max-width: 575px) {
             order: 2;
         }

@@ -168,6 +168,13 @@ body {
   padding-bottom: 17rem;
 }
 
+@media (max-width: 991px) {
+  .header__date {
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+  }
+}
+
 @media (max-width: 575px) {
   .header__date {
     -webkit-box-ordinal-group: 3;

@@ -43,7 +43,7 @@
         transition: all 0.3s linear;
         &:hover {
             transform: translateY(-3px);
-            box-shadow: 0px 0px 4px 1px $gray2;
+            filter: drop-shadow(1px 1px 1px $gray1);
         }
         @media (max-width: 576px) {
             margin: 0 0.5rem;

@@ -444,8 +444,8 @@ body {
 }
 
 .offer__text-price:hover {
-  -webkit-animation: rotate 2s 1 linear;
-          animation: rotate 2s 1 linear;
+  -webkit-animation: rotate 1.2s 1 linear;
+          animation: rotate 1.2s 1 linear;
 }
 
 .offer__button-title {

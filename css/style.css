@@ -68,6 +68,10 @@ body {
   }
 }
 
+.button-4 {
+  width: 7.5rem;
+}
+
 @media (max-width: 575px) {
   .button-4 {
     margin: 0.6rem auto 0;
